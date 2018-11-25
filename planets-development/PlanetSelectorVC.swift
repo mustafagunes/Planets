@@ -46,9 +46,9 @@ class PlanetSelectorVC: UIViewController, UITableViewDelegate, UITableViewDataSo
         return 200.0
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let planetVC = segue.destination as? PlanetViewerVC {
-//            planetVC.planetTitle = planetToPass
-//        }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let planetVC = segue.destination as? PlanetViewerVC {
+            planetVC.planetTitle = planetToPass
+        }
+    }
 }
