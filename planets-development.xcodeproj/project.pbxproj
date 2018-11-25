@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D91DF66421AB14330051EA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91DF66321AB14330051EA2A /* AppDelegate.swift */; };
-		D91DF66621AB14330051EA2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91DF66521AB14330051EA2A /* ViewController.swift */; };
+		D91DF66621AB14330051EA2A /* PlanetSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91DF66521AB14330051EA2A /* PlanetSelectorVC.swift */; };
 		D91DF66921AB14330051EA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91DF66721AB14330051EA2A /* Main.storyboard */; };
 		D91DF66B21AB14330051EA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91DF66A21AB14330051EA2A /* Assets.xcassets */; };
 		D91DF66E21AB14330051EA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91DF66C21AB14330051EA2A /* LaunchScreen.storyboard */; };
 		D91DF68221AB41DE0051EA2A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D91DF68121AB41DE0051EA2A /* art.scnassets */; };
+		D97E44AB21AB46D200A04CE2 /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E44AA21AB46D200A04CE2 /* PlanetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D91DF66021AB14330051EA2A /* planets-development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "planets-development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91DF66321AB14330051EA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D91DF66521AB14330051EA2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D91DF66521AB14330051EA2A /* PlanetSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSelectorVC.swift; sourceTree = "<group>"; };
 		D91DF66821AB14330051EA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D91DF66A21AB14330051EA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91DF66D21AB14330051EA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D91DF66F21AB14330051EA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D91DF68121AB41DE0051EA2A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D97E44AA21AB46D200A04CE2 /* PlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				D91DF66321AB14330051EA2A /* AppDelegate.swift */,
-				D91DF66521AB14330051EA2A /* ViewController.swift */,
+				D91DF66521AB14330051EA2A /* PlanetSelectorVC.swift */,
+				D97E44AA21AB46D200A04CE2 /* PlanetCell.swift */,
 				D91DF66721AB14330051EA2A /* Main.storyboard */,
-				D91DF68121AB41DE0051EA2A /* art.scnassets */,
-				D91DF66A21AB14330051EA2A /* Assets.xcassets */,
 				D91DF66C21AB14330051EA2A /* LaunchScreen.storyboard */,
 				D91DF66F21AB14330051EA2A /* Info.plist */,
+				D91DF66A21AB14330051EA2A /* Assets.xcassets */,
+				D91DF68121AB41DE0051EA2A /* art.scnassets */,
 			);
 			path = "planets-development";
 			sourceTree = "<group>";
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91DF66621AB14330051EA2A /* ViewController.swift in Sources */,
+				D97E44AB21AB46D200A04CE2 /* PlanetCell.swift in Sources */,
+				D91DF66621AB14330051EA2A /* PlanetSelectorVC.swift in Sources */,
 				D91DF66421AB14330051EA2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
